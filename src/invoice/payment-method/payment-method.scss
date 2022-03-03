@@ -1,0 +1,49 @@
+.payment-method {
+  display: flex;
+
+  .icon {
+    height: 16px;
+    padding-right: 5px;
+
+    &.invoice {
+      width: 40px;
+      height: 24px;
+    }
+
+    &.visa {
+      width: 23px;
+      height: 10px;
+    }
+
+    &.amex {
+      width: 24px;
+      height: 16px;
+    }
+
+    &.paypal {
+      width: 30px;
+      height: 8px;
+    }
+
+    &.trustly {
+      width: 40px;
+      height: 24px;
+    }
+  }
+
+  .invoice-text {
+    padding-top: 3px;
+  }
+
+  .trustly-text {
+    padding-top: 5px;
+  }
+
+  .paypal-text {
+    margin-top: -4px;
+  }
+
+  .visa-text {
+    margin-top: -4px;
+  }
+}

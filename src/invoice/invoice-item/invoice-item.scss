@@ -1,0 +1,74 @@
+.invoice-item {
+  display: flex;
+  height: 80px;
+  border: 2px solid #ececec;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  align-items: center;
+  background-color: white;
+  font-weight: 600;
+  color: #5f5f5f;
+  font-size: 13px;
+
+  .label-item {
+    flex: 0.5;
+  }
+
+  .item {
+    flex: 1;
+
+    &.order-number {
+      display: flex;
+      color: #0a8f73;
+      .icon {
+        padding-left: 2px;
+        padding-top: 2px;
+        content: url("../../../public/icons/corner-down-right.svg");
+      }
+    }
+
+    &.store {
+      display: flex;
+      .flag {
+        height: 18px;
+      }
+    }
+
+    .country-name {
+      padding-left: 10px;
+    }
+
+    &.payment-status {
+      display: flex;
+
+      .text {
+        padding-top: 2px;
+      }
+
+      .circle {
+        height: 9px;
+        width: 9px;
+        border-radius: 5px;
+        margin-top: 6px;
+        margin-right: 5px;
+
+        &.paid {
+          background-color: #64e1c3;
+        }
+
+        &.in-progress {
+          background-color: #f16500;
+        }
+
+        &.failed {
+          background-color: #fe1818;
+        }
+      }
+    }
+
+    &.amount {
+      color: #222222;
+    }
+  }
+}

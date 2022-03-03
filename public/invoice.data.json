@@ -1,0 +1,169 @@
+[
+    {
+        "purchaseType": "Online",
+        "orderNumber":  "123456789",
+        "created": "05 maj, 12:33",
+        "store": {
+            "country":"UK",
+            "text": "Butik X"
+        },
+        "paymentMethod":{
+           "type": "invoice",
+           "text": "Invoice"
+
+        },
+        "paymentStatus": "Paid",
+        "amount": "2160 kr",
+        "flag": false
+    },
+    {
+        "purchaseType": "Instore",
+        "orderNumber":  "123456789",
+        "created": "16 maj, 12:33",
+        "store": {
+            "country":"SWE",
+            "text": "Butik X"
+        },
+        "paymentMethod":{
+           "type": "visa",
+           "text": "Card, .... 1234"
+        },
+        "paymentStatus": "In progress",
+        "amount": "3890 kr",
+        "flag": false
+    },
+    {
+        "purchaseType": "Manual",
+        "orderNumber":  "123456789",
+        "created": "20 maj, 12:33",
+        "store": {
+            "country":"NOR",
+            "text": "Butik X"
+        },
+        "paymentMethod":{
+           "type": "amex",
+           "text": "Card, .... 1234"
+
+        },
+        "paymentStatus": "Failed",
+        "amount": "1134 kr",
+        "flag": false
+    },
+    {
+        "purchaseType": "Online",
+        "orderNumber":  "123456789",
+        "created": "24 maj, 12:33",
+        "store": {
+            "country":"SWE",
+            "text": "Butik X"
+        },
+        "paymentMethod":{
+           "type": "paypal",
+           "text": "Paypal"
+
+        },
+        "paymentStatus": "In progress",
+        "amount": "567 kr",
+        "flag": true
+    },
+    {
+        "purchaseType": "Instore",
+        "orderNumber":  "123456789",
+        "created": "30 maj, 12:33",
+        "store": {
+            "country":"NOR",
+            "text": "Butik X"
+        },
+        "paymentMethod":{
+           "type": "trustly",
+           "text": "Trustly"
+
+        },
+        "paymentStatus": "Paid",
+        "amount": "8970 kr",
+        "flag": false
+    },
+
+    {
+        "purchaseType": "Online",
+        "orderNumber":  "987654321",
+        "created": "30 maj, 12:33",
+        "store": {
+            "country":"NOR",
+            "text": "Butik X"
+        },
+        "paymentMethod":{
+           "type": "trustly",
+           "text":  "Trustly"
+        },
+        "paymentStatus": "Paid",
+        "amount": "8970 kr",
+        "flag": false
+    },
+    {
+        "purchaseType": "Online",
+        "orderNumber":  "987654321",
+        "created": "16 maj, 12:33",
+        "store": {
+            "country":"SWE",
+            "text": "Butik X"
+        },
+        "paymentMethod":{
+           "type": "visa",
+           "text": "Card, .... 1234"
+
+        },
+        "paymentStatus": "In progress",
+        "amount": "3890 kr",
+        "flag": false
+    },
+    {
+        "purchaseType": "Manual",
+        "orderNumber":  "987654321",
+        "created": "20 jun, 12:33",
+        "store": {
+            "country":"SWE",
+            "text": "Butik X"
+        },
+        "paymentMethod":{
+           "type": "amex",
+           "text": "Card, .... 1234"
+        },
+        "paymentStatus": "Paid",
+        "amount": "1134 kr",
+        "flag": false
+    },
+    {
+        "purchaseType": "Instore",
+        "orderNumber":  "987654321",
+        "created": "24 maj, 12:33",
+        "store": {
+            "country":"NOR",
+            "text": "Butik X"
+        },
+        "paymentMethod":{
+            "type": "trustly",
+            "text":  "Trustly"
+         },
+        "paymentStatus": "In progress",
+        "amount": "567 kr",
+        "flag": false
+    },
+    {
+        "purchaseType": "Instore",
+        "orderNumber":  "987654321",
+        "created": "05 maj, 12:33",
+        "store": {
+            "country":"UK",
+            "text": "Butik X"
+        },
+        "paymentMethod":{
+           "type": "invoice",
+           "text": "Invoice"
+
+        },
+        "paymentStatus": "paid",
+        "amount": "2160 kr",
+        "flag": false
+    }
+]

@@ -1,0 +1,36 @@
+.pagination {
+  width: 100%;
+  height: 80px;
+  padding-top: 40px;
+
+  .container {
+    position: absolute;
+    right: 50px;
+
+    .back-next-btn {
+      background-color: inherit;
+      border: 0;
+      color: black;
+      margin: 20px;
+
+      &.active-btn {
+        color: #439b83;
+      }
+    }
+
+    .button {
+      background-color: inherit;
+      margin: 15px;
+      border: 0;
+      color: black;
+
+      &.active-button {
+        background-color: #439b83;
+        color: white;
+        height: 40px;
+        width: 40px;
+        border-radius: 29px;
+      }
+    }
+  }
+}

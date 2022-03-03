@@ -1,0 +1,29 @@
+.customer-contact-page {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px dotted #ECECEC;
+
+  .icon {
+    margin-right: 10px;
+  }
+
+  .mid-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .customer-contact {
+    flex: 1;
+  }
+
+  .shipping-address {
+    flex: 1;
+  }
+
+  .invoice-address {
+    flex: 1;
+  }
+}

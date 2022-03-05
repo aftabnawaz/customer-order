@@ -2,7 +2,7 @@ import React from 'react';
 import Label from "../label/label";
 import PaymentMethod from "../payment-method/payment-method";
 import "./invoice-item.scss";
-
+//Invoice-item
 export default function InvoiceItem({ invoiceItem }) {
     return (
         <div className="invoice-item">
